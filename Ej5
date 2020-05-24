@@ -1,0 +1,16 @@
+5.-while( x[i+2] > x[i-1]) {if(y < 3) y =1; else y=0; }
+    L0: t0=i+2
+        t1=t0*4
+        t2=x[t1]
+        t3=i-1
+        t4=t3*4
+        t5=x[t4]
+        if t2 > t5 goto L1 
+            goto L2
+        L1: if y < 3 goto L3
+            goto L4
+            L3: y=1
+                goto L0
+            L4: y=0
+                goto L0
+    L2: ...   

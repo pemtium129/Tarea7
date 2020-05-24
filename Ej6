@@ -1,0 +1,9 @@
+6.- do i++; j++; while(x >z*5);
+    L1: t0=i+1
+        i=t0
+        t1=j+1
+        j=t1
+        t2=z*5
+        if x > t2 goto L1
+            goto L2
+    L2: ...

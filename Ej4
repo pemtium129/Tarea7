@@ -1,0 +1,15 @@
+4.-if( x[i+2] > x[i-1]) a = z*3+y; else a = 2;
+    t0=i+2
+    t1=t0*4
+    t2=x[t1]
+    t3=i-1
+    t4=t3*4
+    t5=x[t4]
+    if t2 > t5 goto L0
+        goto L1
+    L0: t6=z*3
+        t7=t6+y
+        a=t7
+        goto L2
+    L1: a=2
+    L2: ...
